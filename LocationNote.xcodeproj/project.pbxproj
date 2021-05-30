@@ -72,8 +72,8 @@
 		FA24A32526527B1E00B7488C /* LocationNote */ = {
 			isa = PBXGroup;
 			children = (
-				FA24A32626527B1E00B7488C /* AppDelegate.swift */,
 				FAB3BBA32663D3FB006ABC19 /* Models */,
+				FA24A32626527B1E00B7488C /* AppDelegate.swift */,
 				FA24A32826527B1E00B7488C /* SceneDelegate.swift */,
 				FA24A32C26527B1E00B7488C /* Main.storyboard */,
 				FA24A33226527B1F00B7488C /* Assets.xcassets */,
