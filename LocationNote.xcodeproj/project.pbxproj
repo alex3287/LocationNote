@@ -13,6 +13,14 @@
 		FA24A33126527B1E00B7488C /* LocationNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA24A32F26527B1E00B7488C /* LocationNote.xcdatamodeld */; };
 		FA24A33326527B1F00B7488C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA24A33226527B1F00B7488C /* Assets.xcassets */; };
 		FA24A33626527B1F00B7488C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24A33426527B1F00B7488C /* LaunchScreen.storyboard */; };
+		FAB3BB9B2663D3DF006ABC19 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB932663D3DF006ABC19 /* Location+CoreDataClass.swift */; };
+		FAB3BB9C2663D3DF006ABC19 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB942663D3DF006ABC19 /* Location+CoreDataProperties.swift */; };
+		FAB3BB9D2663D3DF006ABC19 /* ImageNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB952663D3DF006ABC19 /* ImageNote+CoreDataClass.swift */; };
+		FAB3BB9E2663D3DF006ABC19 /* ImageNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB962663D3DF006ABC19 /* ImageNote+CoreDataProperties.swift */; };
+		FAB3BB9F2663D3DF006ABC19 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB972663D3DF006ABC19 /* Folder+CoreDataClass.swift */; };
+		FAB3BBA02663D3DF006ABC19 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB982663D3DF006ABC19 /* Folder+CoreDataProperties.swift */; };
+		FAB3BBA12663D3DF006ABC19 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB992663D3DF006ABC19 /* Note+CoreDataClass.swift */; };
+		FAB3BBA22663D3DF006ABC19 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB9A2663D3DF006ABC19 /* Note+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		FA24A33226527B1F00B7488C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA24A33526527B1F00B7488C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA24A33726527B1F00B7488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB3BB932663D3DF006ABC19 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAB3BB942663D3DF006ABC19 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAB3BB952663D3DF006ABC19 /* ImageNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAB3BB962663D3DF006ABC19 /* ImageNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAB3BB972663D3DF006ABC19 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAB3BB982663D3DF006ABC19 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAB3BB992663D3DF006ABC19 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAB3BB9A2663D3DF006ABC19 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +73,30 @@
 			isa = PBXGroup;
 			children = (
 				FA24A32626527B1E00B7488C /* AppDelegate.swift */,
+				FAB3BBA32663D3FB006ABC19 /* Models */,
 				FA24A32826527B1E00B7488C /* SceneDelegate.swift */,
 				FA24A32C26527B1E00B7488C /* Main.storyboard */,
 				FA24A33226527B1F00B7488C /* Assets.xcassets */,
 				FA24A33426527B1F00B7488C /* LaunchScreen.storyboard */,
 				FA24A33726527B1F00B7488C /* Info.plist */,
-				FA24A32F26527B1E00B7488C /* LocationNote.xcdatamodeld */,
 			);
 			path = LocationNote;
+			sourceTree = "<group>";
+		};
+		FAB3BBA32663D3FB006ABC19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA24A32F26527B1E00B7488C /* LocationNote.xcdatamodeld */,
+				FAB3BB932663D3DF006ABC19 /* Location+CoreDataClass.swift */,
+				FAB3BB942663D3DF006ABC19 /* Location+CoreDataProperties.swift */,
+				FAB3BB952663D3DF006ABC19 /* ImageNote+CoreDataClass.swift */,
+				FAB3BB962663D3DF006ABC19 /* ImageNote+CoreDataProperties.swift */,
+				FAB3BB972663D3DF006ABC19 /* Folder+CoreDataClass.swift */,
+				FAB3BB982663D3DF006ABC19 /* Folder+CoreDataProperties.swift */,
+				FAB3BB992663D3DF006ABC19 /* Note+CoreDataClass.swift */,
+				FAB3BB9A2663D3DF006ABC19 /* Note+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +169,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3BBA22663D3DF006ABC19 /* Note+CoreDataProperties.swift in Sources */,
+				FAB3BB9B2663D3DF006ABC19 /* Location+CoreDataClass.swift in Sources */,
 				FA24A33126527B1E00B7488C /* LocationNote.xcdatamodeld in Sources */,
 				FA24A32726527B1E00B7488C /* AppDelegate.swift in Sources */,
+				FAB3BB9D2663D3DF006ABC19 /* ImageNote+CoreDataClass.swift in Sources */,
+				FAB3BBA02663D3DF006ABC19 /* Folder+CoreDataProperties.swift in Sources */,
 				FA24A32926527B1E00B7488C /* SceneDelegate.swift in Sources */,
+				FAB3BB9F2663D3DF006ABC19 /* Folder+CoreDataClass.swift in Sources */,
+				FAB3BBA12663D3DF006ABC19 /* Note+CoreDataClass.swift in Sources */,
+				FAB3BB9C2663D3DF006ABC19 /* Location+CoreDataProperties.swift in Sources */,
+				FAB3BB9E2663D3DF006ABC19 /* ImageNote+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
