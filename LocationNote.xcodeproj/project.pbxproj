@@ -21,6 +21,7 @@
 		FAB3BBA02663D3DF006ABC19 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB982663D3DF006ABC19 /* Folder+CoreDataProperties.swift */; };
 		FAB3BBA12663D3DF006ABC19 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB992663D3DF006ABC19 /* Note+CoreDataClass.swift */; };
 		FAB3BBA22663D3DF006ABC19 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3BB9A2663D3DF006ABC19 /* Note+CoreDataProperties.swift */; };
+		FAF0189E2666999C00695C25 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0189D2666999C00695C25 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FAB3BB982663D3DF006ABC19 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FAB3BB992663D3DF006ABC19 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FAB3BB9A2663D3DF006ABC19 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAF0189D2666999C00695C25 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		FAB3BBA32663D3FB006ABC19 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAF0189D2666999C00695C25 /* CoreDataManager.swift */,
 				FA24A32F26527B1E00B7488C /* LocationNote.xcdatamodeld */,
 				FAB3BB932663D3DF006ABC19 /* Location+CoreDataClass.swift */,
 				FAB3BB942663D3DF006ABC19 /* Location+CoreDataProperties.swift */,
@@ -175,6 +178,7 @@
 				FA24A32726527B1E00B7488C /* AppDelegate.swift in Sources */,
 				FAB3BB9D2663D3DF006ABC19 /* ImageNote+CoreDataClass.swift in Sources */,
 				FAB3BBA02663D3DF006ABC19 /* Folder+CoreDataProperties.swift in Sources */,
+				FAF0189E2666999C00695C25 /* CoreDataManager.swift in Sources */,
 				FA24A32926527B1E00B7488C /* SceneDelegate.swift in Sources */,
 				FAB3BB9F2663D3DF006ABC19 /* Folder+CoreDataClass.swift in Sources */,
 				FAB3BBA12663D3DF006ABC19 /* Note+CoreDataClass.swift in Sources */,
