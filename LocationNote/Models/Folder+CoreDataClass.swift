@@ -11,5 +11,11 @@ import CoreData
 
 @objc(Folder)
 public class Folder: NSManagedObject {
-
+    class func newFolder(name: String) -> Folder {
+        let folder = Folder(context: CoreDataManager.sharedInstance.managedObjectContext)
+        folder.name = name
+        folder.dataUpdate = Date() //fixme problem here
+    
+        return folder
+    }
 }
